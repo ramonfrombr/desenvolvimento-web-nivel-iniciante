@@ -13,7 +13,7 @@ body {
     height: 100vh;
 }
 
-.text {
+.texto {
     text-transform: uppercase;
 }
 
@@ -21,20 +21,20 @@ body {
     width: 200px;
 }
 
-.nav-btn {
+.botao-navegacao {
     border: none;
     background-color: transparent;
     cursor: pointer;
     font-size: 20px;
 }
 
-.open-btn {
+.botao-abrir {
     position: fixed;
     top: 10px;
     left: 10px;
 }
 
-.nav {
+.navegacao {
     position: fixed;
     top: 0;
     left: 0;
@@ -43,33 +43,33 @@ body {
     transition: transform 0.3s ease-in-out;
 }
 
-.nav.visivel {
+.navegacao.visivel {
     transform: translateX(0);
 }
 
-.nav-preta {
-    background-color: rgb(34, 31, 31);
+.navegacao-preto {
+    background-color: rgba(34, 31, 31);
     width: 60%;
     max-width: 480px;
     min-width: 320px;
     transition-delay: 0.4s;
 }
 
-.nav-preta.visivel {
+.navegacao-preto.visivel {
     transition-delay: 0s;
 }
 
-.nav-vermelha {
+.navegacao-vermelho {
     background-color: rgb(229, 9, 20);
     width: 95%;
     transition-delay: 0.2s;
 }
 
-.nav-vermelha.visivel {
+.navegacao-vermelho.visivel {
     transition-delay: 0.2s;
 }
 
-.nav-branca {
+.navegacao-branco {
     background-color: #fff;
     width: 95%;
     padding: 40px;
@@ -77,11 +77,11 @@ body {
     transition-delay: 0s;
 }
 
-.nav-branca.visivel {
+.navegacao-branco.visivel {
     transition-delay: 0.4s;
 }
 
-.close-btn {
+.botao-fechar {
     opacity: 0.3;
     position: absolute;
     top: 40px;

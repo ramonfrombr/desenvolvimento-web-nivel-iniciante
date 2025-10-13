@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Robot", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,7 +37,7 @@ img {
     justify-content: space-between;
 }
 
-.btn {
+.botao {
     background-color: rebeccapurple;
     color: #fff;
     border: none;
@@ -46,10 +46,10 @@ img {
     width: 49.5%;
 }
 
-.btn:hover {
+.botao:hover {
     opacity: 0.9;
 }
 
-.btn:focus {
+.botao:focus {
     outline: none;
 }
