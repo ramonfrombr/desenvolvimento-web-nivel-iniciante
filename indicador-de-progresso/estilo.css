@@ -72,6 +72,7 @@ body {
 
 .circle.active {
     border-color: var(--linha-preenchida);
+    color: rgb(38, 149, 217);
 }
 
 .btn {
