@@ -28,6 +28,7 @@ a {
 .barra-navegacao {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
     background-color: #212529;
     color: white;
@@ -161,6 +162,7 @@ a {
     grid-template-columns: repeat(1, 320px);
     justify-content: center;
     gap: 15px;
+    margin-bottom: 50px;
 }
 
 /**
@@ -191,4 +193,5 @@ a {
     color: white;
     border-radius: 4px;
     padding: 3px 6px;
+    white-space: nowrap;
 }
